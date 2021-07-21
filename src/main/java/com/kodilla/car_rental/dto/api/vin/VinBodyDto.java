@@ -20,6 +20,9 @@ public class VinBodyDto {
     @JsonProperty("Model")
     private String model;
 
+    @JsonProperty("FuelTypePrimary")
+    private String fuelType;
+
     @JsonProperty("ModelYear")
     private String productYear;
 
